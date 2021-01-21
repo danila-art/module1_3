@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, p {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: block;
+    background-color: #858585;
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+
+.registr {
+    display: block;
+    width: 20%;
+    height: auto;
+    margin: 1% auto;
+    padding: 2%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.registr div {
+    display: block;
+    padding: 2%;
+}
+
+.avtorization {
+    display: block;
+    width: 20%;
+    height: auto;
+    margin: 1% auto;
+    padding: 2%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.avtorization div {
+    display: block;
+    padding: 2%;
+}
+.button{
+    background-color: #2bc4f3;
+    padding: 1%;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 15%;
+    height: auto;
+    margin: 1% auto;
+    color: white;
+}
+.themeBox {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    padding: 2%;
+}
+.themeAddBox{
+    display: none;
+    width: 20%;
+    height: auto;
+    margin: 1% auto;
+    padding: 2%;
+    text-align: center;
+    border: 1px solid white;
+}
+.themeAddBox div {
+    display: block;
+    padding: 2%;
+}
+.themeAddBox div input[name = 'name']{
+    width: 300px;
+    height: 30px;
+}
+.themeAddBox div input[name = 'text']{
+    width: 400px;
+    height: 200px;
+}
+.submitButton{
+    outline: none;
+    border: none;
+    background-color: #2bc4f3;
+    padding: 3%;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    height: auto;
+    margin: 1% auto;
+    color: white;
+
+}
+.themeBox1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #2bc4f3;
+    color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.themeBox1 h2, h4 {
+    padding: 1%;
+}
+
+.themeBox2 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #eeeeee;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 1%;
+}
+
+.themeBox2_Author {
+    text-align: center;
+    border-right: 1px solid black;
+    padding-right: 2%;
+}
+.themeBox2_Text{
+    width: 50%;
+    height: 5vh;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+}
+.themeBox2_More{
+    width: 20%;
+    padding-top: 1%;
+}
+.themeBox2_More div{
+    background-color: #2bc4f3;
+    padding: 2%;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.userProfile{
+    background-color: #2bc4f3;
+    padding: 1%;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 15%;
+    height: auto;
+    margin: 1% auto;
+}
+.userProfile h2 a{
+    text-decoration: none;
+    color: white;
+}
+
