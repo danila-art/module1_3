@@ -6,3 +6,6 @@ $password = 'root'; // Пароль
 
 //подключаемся к бд
 $link_bd = mysqli_connect($host, $login, $password, $database) or die("Ошибка" . mysqli_error($link_bd));
+
+
+

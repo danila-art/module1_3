@@ -1,0 +1,23 @@
+.answerBox{
+    display: block;
+    background-color: #dbdbdb;
+    width: 70%;
+    height: auto;
+    margin: 1% auto;
+    border-radius: 10px;
+    min-height: 100px;
+}
+.answerFlex{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.answerFlex div{
+    display: block;
+    padding: 1%;
+}
+.answerText h2{
+    text-align: center;
+    padding: 1%;
+}

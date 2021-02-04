@@ -127,3 +127,17 @@
     text-align: center;
     border-left: 1px solid black;
 }
+.goHome{
+    display: block;
+    width: 10%;
+    height: auto;
+    border-radius: 20px;
+    background-color: #2bc4f3;
+    text-align: center;
+    padding: 1%;
+}
+.goHome a {
+    text-decoration: none;
+    color: white;
+    line-height: inherit;
+}

@@ -18,8 +18,15 @@ $user = $output->fetch_assoc();
 if ($user == 0) {
     echo 'Пользователь не найден';
 } else {
-    setcookie('userEmail', $user['email'], time() + 3600, "/");
-    setcookie("userName", $user["name"], time() + 3600, "/");
-    header('Location: ../');
+    if ($user['email'] == 'admin_admin@mail.ru') {
+        setcookie('userEmail', $user['email'], time() + 3600, "/");
+        setcookie("userName", $user["name"], time() + 3600, "/");
+        header('Location: adminPanel.php');
+    } else {
+        setcookie('userEmail', $user['email'], time() + 3600, "/");
+        setcookie("userName", $user["name"], time() + 3600, "/");
+        header('Location: ../');
+    }
+
 }
 

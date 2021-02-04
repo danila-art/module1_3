@@ -93,7 +93,10 @@ if ($_COOKIE['userEmail'] == '') {
             echo "<div class=\"themeBox\">
                     <div class=\"themeBox1\">
                         <h2>{$row['name']}</h2>
-                        <h4>{$row['date']}</h4>
+                        <div>
+                            <h4>{$row['date']}</h4>
+                            <h4>{$row['time']}</h4>
+                        </div>
                     </div>
                     <div class=\"themeBox2\">
                         <div class='themeBox2_Author'>
@@ -117,7 +120,6 @@ if ($_COOKIE['userEmail'] == '') {
     $link_bd->close();
     ?>
 </section>
-
 <script src="js/scriptJavaScript.js" type="text/javascript"></script>
 </body>
 </html>

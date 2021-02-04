@@ -21,8 +21,8 @@ $outUser = $link_bd->query("SELECT * FROM `user` WHERE `email` = '$cookieUser'")
 $outUser = mysqli_fetch_assoc($outUser);
 $userId = $outUser['id'];
 if (count($themeError) == 0){
-    echo $date;
     $link_bd->query("INSERT INTO `theme`(`name`, `text`, `status`, `date`, `time`, `id_user`) VALUES ('$themeName', '$themeText', '$status', '$date', '$time', '$userId')");
+    header('Location: ../');
 }else{
     foreach ($themeError as $value){
         echo "{$value}<br>";

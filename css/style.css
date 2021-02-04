@@ -110,7 +110,11 @@ header {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
-
+.themeBox1 div{
+    display: block;
+    width: 7%;
+    padding: 1%;
+}
 .themeBox1 h2, h4 {
     padding: 1%;
 }
@@ -162,4 +166,19 @@ header {
     text-decoration: none;
     color: white;
 }
+.goHome{
+    display: block;
+    width: 10%;
+    height: auto;
+    border-radius: 20px;
+    background-color: #2bc4f3;
+    text-align: center;
+    padding: 1%;
+}
+.goHome a {
+    text-decoration: none;
+    color: white;
+    line-height: inherit;
+}
+
 

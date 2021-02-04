@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, p {
+    padding: 0;
+    margin: 0;
+}
+
+.boxAdmin{
+    background-image: url("../image/backgroundAdmin.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    box-sizing: border-box;
+}
+.goHome{
+    display: block;
+    width: 10%;
+    height: 20%;
+    border-radius: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 1%;
+}
+.goHome a {
+    text-decoration: none;
+    color: #000000;
+    line-height: inherit;
+    font-size: 18pt;
+}
+
+.flexAdmin{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.imgAdmin{
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.imgAdmin img{
+    width: 100%;
+    height: auto;
+}
+.nameAdmin h2{
+    text-align: center;
+    color: white;
+}
+
+
+.themeBox {
+    display: block;
+    width: 90%;
+    height: auto;
+    padding: 2%;
+
+}
+.themeBox1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #000000;
+    color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.65);
+}
+
+.themeBox1 h2, h4 {
+    padding: 1%;
+    color: white;
+}
+
+.themeBox2 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #eeeeee;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 1%;
+}
+
+.themeBox2_Author {
+    text-align: center;
+    border-right: 1px solid black;
+    padding-right: 2%;
+}
+.themeBox2_Text{
+    width: 50%;
+    height: 4vh;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+}
+.themeBox2_More{
+    width: 20%;
+    padding-top: 1%;
+}
+.themeBox2_More div{
+    padding: 2%;
+    text-align: center;
+    border-left: 1px solid black;
+}
